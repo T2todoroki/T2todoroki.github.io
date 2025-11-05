@@ -1,89 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Currículum -Luis Abraham Torpoco Martinez</title>
-  <style>
-    body {
-      font-family: system-ui, Arial, sans-serif;
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 20px;
-      color: #222;
-      background: #f5f5f5;
-    }
-    header {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-    img.avatar {
-      width: 120px;
-      height: 120px;
-      border-radius: 8px;
-      object-fit: cover;
-    }
-    h1 {
-      margin: 0;
-    }
-    section {
-      margin-top: 20px;
-      padding: 15px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
-    .widgets {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 10px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Torpoco | Desarrollador en formación</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img class="avatar" src="https://via.placeholder.com/120" alt="Foto de Abraham">
-    <div>
-      <h1>Abraham Torpoco</h1>
-      <p>Estudiante de DAW • Desarrollador Web en formación</p>
-      <p><strong>Contacto:</strong> torpocomartinezluis@gmail.com</p>
-    </div>
-  </header>
 
-  <section>
-    <h2>Sobre mí</h2>
-    <p>
-      Soy estudiante de Desarrollo de Aplicaciones Web, apasionado por la programación y el diseño web.
-      Me gusta aprender nuevas tecnologías, trabajar en equipo y crear proyectos útiles y visualmente atractivos.
-    </p>
-  </section>
+  <main class="contenedor">
 
-  <section>
-    <h2>Formación y habilidades</h2>
-    <ul>
-      <li>CFGS en Desarrollo de Aplicaciones Web (DAW)</li>
-      <li>HTML, CSS, JavaScript y PHP</li>
-      <li>Conocimientos básicos en Git y GitHub</li>
-      <li>Diseño web con colores neutros</li>
-    </ul>
-  </section>
+    <!-- FOTO Y PRESENTACIÓN -->
+    <section class="perfil">
+      <div class="foto">
+        <img src="tu_foto.jpg" alt="Foto de Luis Torpoco">
+      </div>
+      <div class="info">
+        <h1>Luis Abraham Torpoco Martínez</h1>
+        <p class="subtitulo">Desarrollador Web en formación | Java · SQL · HTML · CSS · JavaScript</p>
+        <p class="descripcion">Apasionado por la programación, el diseño limpio y el aprendizaje constante.</p>
+      </div>
+    </section>
 
-  <section>
-    <h2>Widgets de GitHub</h2>
-    <p>Aquí se muestran mis estadísticas como usuario de GitHub:</p>
-    <div class="widgets">
-      <img src="https://github-readme-stats.vercel.app/api?username=T2todoroki&show_icons=true&theme=default" alt="Estadísticas de GitHub">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=T2todoroki&layout=compact" alt="Lenguajes más usados">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&size=18&duration=4000&pause=1000&color=000000&width=435&lines=Hola+soy+Abraham+Torpoco;Desarrollador+Web+en+formación;Apasionado+por+la+tecnología" alt="Texto animado">
-    </div>
-  </section>
+    <hr>
 
-  <footer style="margin-top: 25px; font-size: 13px; color: #555;">
-    Página creada por Abraham Torpoco • Publicada en GitHub Pages:
-    <a href="https://T2todoroki.github.io">https://T2todoroki.github.io</a>
-  </footer>
+    <!-- EDUCACIÓN -->
+    <section>
+      <h3>🎓 Educación</h3>
+      <ul>
+        <li><strong>CFGS Desarrollo de Aplicaciones Web</strong> — IES Tecnológico (2024 - Actualidad)</li>
+        <li><strong>Formación autodidacta</strong> en Java, SQL, UML y desarrollo de aplicaciones orientadas a objetos.</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- HABILIDADES -->
+    <section>
+      <h3>🧩 Habilidades Técnicas</h3>
+      <ul class="grid">
+        <li>☕ Java (POO, Ficheros, HashMap)</li>
+        <li>💾 SQL y PL/SQL (Oracle)</li>
+        <li>🌐 HTML5, CSS3, JavaScript</li>
+        <li>📘 UML (UMLet)</li>
+        <li>🔧 Git y GitHub</li>
+        <li>🖥️ Packet Tracer (OSI/TCP-IP)</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- EXPERIENCIA -->
+    <section>
+      <h3>💼 Experiencia</h3>
+      <ul>
+        <li>
+          <strong>2023–2024 — Mesero y Bartender</strong> | Sushi Bar Tottori (Restaurante Michelin)<br>
+          <span>Desarrollé habilidades de comunicación, trabajo en equipo y atención al detalle en un entorno exigente.</span>
+        </li>
+        <li>
+          <strong>2020–2021 — Dependiente de Perfumería</strong> | Zapphiro Fragancias<br>
+          <span>Asesoramiento a clientes, gestión de ventas y organización de productos.</span>
+        </li>
+        <li>
+          <strong>2019–2020 — Dependiente de Material de Construcción</strong> | Químicos Rayos SAC (Lima, Perú)<br>
+          <span>Gestión de inventario y atención al cliente, fortaleciendo mi responsabilidad y adaptabilidad.</span>
+        </li>
+      </ul>
+      <p class="nota">🧠 Aunque mis primeras experiencias no fueron en tecnología, me ayudaron a desarrollar competencias clave como la comunicación, la organización y la orientación a resultados, que aplico hoy en mi formación como desarrollador web.</p>
+    </section>
+
+    <hr>
+
+    <!-- CONTACTO -->
+    <section>
+      <h3>📬 Contacto</h3>
+      <ul>
+        <li><strong>Email:</strong> torpocomartinezluis@gmail.com</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></li>
+        <li><strong>Ubicación:</strong> España</li>
+      </ul>
+    </section>
+
+  </main>
+
 </body>
 </html>
