@@ -1,0 +1,143 @@
+/* ======== ESTILO GENERAL ======== */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: #f7f8fc;
+  color: #1e1e2f;
+  margin: 0;
+  padding: 40px 20px;
+  animation: fadeIn 0.8s ease-in;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.contenedor {
+  max-width: 900px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+  animation: slideUp 0.7s ease-out;
+}
+
+/* ======== PERFIL ======== */
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #dce1f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.foto:hover {
+  transform: scale(1.05);
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info h1 {
+  color: #0a0a23;
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.info h1:hover {
+  color: #3b2db0;
+}
+
+.subtitulo {
+  color: #555;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.descripcion {
+  color: #7a7a9c;
+  font-size: 0.95rem;
+}
+
+/* ======== SECCIONES ======== */
+section {
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #2d2d6b;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+h3:hover {
+  color: #5a3ff5;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* ======== GRID HABILIDADES ======== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 8px;
+  font-size: 0.95rem;
+}
+
+/* ======== HR Y NOTA ======== */
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e5;
+  margin: 30px 0;
+}
+
+.nota {
+  margin-top: 15px;
+  color: #6a6a88;
+  font-size: 0.95rem;
+}
+
+/* ======== LINKS ======== */
+a {
+  color: #3b2db0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5a3ff5;
+}
+
+/* ======== ANIMACIONES ======== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(25px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
