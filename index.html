@@ -3,126 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luis Torpoco | Full Stack Developer en Formación</title>
+  <title>Luis Torpoco | Software Developer | DAW</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <main class="contenedor">
-
-    <section class="perfil">
-      <div class="foto">
-        <img src="Foto_Cv.png" alt="Luis Abraham Torpoco Martinez">
+    <header class="perfil">
+      <div class="foto-container">
+        <img src="Foto_Cv.png" alt="Luis Abraham Torpoco Martínez" class="foto-perfil">
+        <div class="badge-disponible">Disponible para trabajar</div>
       </div>
       <div class="info">
+        <span class="tag-rol">Full Stack Developer en formación</span>
         <h1>Luis Abraham Torpoco Martínez</h1>
-        <p class="subtitulo">Desarrollador de Aplicaciones Web (DAW) | Java · SQL · Frontend</p>
-        <p class="descripcion">
-          Desarrollador en formación con sólida base en lógica de programación y gestión de bases de datos. 
-          Capacidad de adaptación demostrada en entornos de alto rendimiento. Enfocado en construir soluciones 
-          eficientes, escalables y con código limpio.
+        <p class="descripcion-premium">
+          Especializado en el desarrollo de aplicaciones web escalables con (Java, PHP y JavaScript). 
+          Mi enfoque se centra en la escritura de **Clean Code** y la implementación de soluciones 
+          eficientes mediante el consumo de APIs y la optimización de bases de datos. 
+          Disciplina forjada en entornos de alto rendimiento.
         </p>
+        <div class="social-pills">
+          <a href="mailto:torpocomartinezluis@gmail.com" class="pill">📧 Email</a>
+          <a href="https://github.com/T2todoroki" target="_blank" class="pill">🔗 GitHub</a>
+          <span class="pill"> Madrid, España</span>
+        </div>
       </div>
-    </section>
+    </header>
 
-    <hr>
-
-    <section>
-      <h3>🎓 Formación Académica</h3>
-      <div class="educacion-item">
-        <p><strong>Técnico Superior en Desarrollo de Aplicaciones Web (DAW)</strong></p>
-        <span>IES Tecnológico | 2024 — Presente</span>
-      </div>
-      <div class="educacion-item">
-        <p><strong>Bachillerato Científico-Tecnológico</strong></p>
-        <span>2020 — 2022</span>
-      </div>
-    </section>
-
-    <hr>
-
-    <section>
-      <h3>🧩 Tech Stack</h3>
-      <div class="habilidades-container">
-        <div class="categoria">
-          <h4>Backend & Lógica</h4>
-          <ul class="chips">
-            <li>Java SE (8/11/17)</li>
-            <li>Programación Orientada a Objetos (POO)</li>
-            <li>Gestión de Ficheros e I/O</li>
-            <li>Estructuras de Datos</li>
+    <section class="seccion-stack">
+      <h3 class="titulo-seccion"> Core Tech Stack</h3>
+      <div class="grid-stack">
+        <div class="card-stack">
+          <h4>Frontend Engine</h4>
+          <ul>
+            <li><strong>JS Moderno:</strong> ES6+, Async/Await, Fetch API</li>
+            <li><strong>DOM:</strong> Manipulación avanzada y eventos</li>
+            <li><strong>UI/UX:</strong> HTML5 Semántico, CSS Grid, Flexbox</li>
           </ul>
         </div>
-        <div class="categoria">
-          <h4>Bases de Datos</h4>
-          <ul class="chips">
-            <li>Oracle SQL / PL/SQL</li>
-            <li>Diseño de Modelos E-R</li>
-            <li>Optimización de Consultas</li>
+        <div class="card-stack">
+          <h4>Backend & Logic</h4>
+          <ul>
+            <li><strong>PHP:</strong> Desarrollo de lado servidor y lógica de negocio</li>
+            <li><strong>Java:</strong> POO avanzada y gestión de memoria</li>
+            <li><strong>Python:</strong> Scripting, automatización y análisis</li>
           </ul>
         </div>
-        <div class="categoria">
-          <h4>Frontend & Web</h4>
-          <ul class="chips">
-            <li>HTML5 Semántico</li>
-            <li>CSS3 (Flexbox/Grid)</li>
-            <li>JavaScript (ES6+)</li>
-            <li>Diseño Responsive</li>
+        <div class="card-stack">
+          <h4>Data & Dev Tools</h4>
+          <ul>
+            <li><strong>SQL:</strong> MySQL, Oracle (Procedimientos, Triggers)</li>
+            <li><strong>DevOps:</strong> Git (Gitflow), Docker (Básico), Vercel</li>
+            <li><strong>Metodologías:</strong> SCRUM, Agile, Clean Code</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <hr>
+    <section>
+      <h3 class="titulo-seccion"> Proyectos Destacados</h3>
+      <div class="proyectos-premium">
+        <div class="proyecto-card-full">
+          <div class="proyecto-info">
+            <h4>Ecosistema Web Dinámico (JS/APIs)</h4>
+            <p>Arquitectura cliente-servidor que consume servicios REST mediante peticiones asíncronas, priorizando el rendimiento y la experiencia de usuario reactiva.</p>
+            <div class="tech-used">
+              <span>JavaScript</span> <span>Fetch API</span> <span>JSON</span>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto-card-full">
+          <div class="proyecto-info">
+            <h4>Sistema de Gestión Backend (PHP/SQL)</h4>
+            <p>Desarrollo de una plataforma robusta con manejo de sesiones, seguridad contra inyecciones SQL y CRUD completo para administración de datos.</p>
+            <div class="tech-used">
+              <span>PHP</span> <span>MySQL</span> <span>Seguridad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section>
-      <h3>🛠️ Ecosistema de Desarrollo</h3>
-      <ul class="grid-herramientas">
-        <li><strong>IDE/Editores:</strong> VS Code, Eclipse, IntelliJ IDEA</li>
-        <li><strong>Control de Versiones:</strong> Git, GitHub (Gitflow)</li>
-        <li><strong>Base de Datos:</strong> Oracle SQL Developer, DBeaver</li>
-        <li><strong>Documentación/Diseño:</strong> UML (UMLet), StarUML</li>
-        <li><strong>Redes:</strong> Cisco Packet Tracer (TCP/IP, Subnetting)</li>
-        <li><strong>Entornos:</strong> Windows/Linux (Terminal)</li>
-      </ul>
-    </section>
-
-    <hr>
-
-    <section>
-      <h3>📊 Actividad en GitHub</h3>
-      <div class="widgets">
-          <img src="https://github-readme-stats.vercel.app/api?username=T2todoroki&show_icons=true&theme=radical&rank_icon=github" alt="Estadísticas de GitHub">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=T2todoroki&layout=compact&theme=radical" alt="Lenguajes más usados">
+      <h3 class="titulo-seccion"> GitHub Analytics</h3>
+      <div class="github-stats-container">
+          <img src="https://github-readme-stats.vercel.app/api?username=T2todoroki&show_icons=true&theme=radical&hide_border=true" alt="Stats">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=T2todoroki&layout=compact&theme=radical&hide_border=true" alt="Langs">
       </div>
     </section>
 
-    <hr>
-
-    <section>
-      <h3>💼 Experiencia Profesional</h3>
-      <div class="experiencia-item">
-        <p><strong>Hostelería de Alto Nivel | Sushi Bar Tottori (Restaurante Michelin)</strong> <span>2023 — 2024</span></p>
-        <p class="nota">Gestión de presión, trabajo en equipo multidisciplinar y excelencia en el servicio al cliente. Habilidades transferibles al desarrollo ágil y resolución de problemas.</p>
-      </div>
-      
-      <div class="experiencia-item">
-        <p><strong>Gestor de Inventario y Ventas | Químicos Rayos SAC</strong> <span>2011 — 2022</span></p>
-        <p class="nota">Responsable del control de stock y atención técnica. Desarrollo de gran capacidad organizativa y gestión de datos logísticos.</p>
+    <section class="experiencia-seccion">
+      <h3 class="titulo-seccion"> Trayectoria Profesional</h3>
+      <div class="timeline-item">
+        <div class="timeline-date">2023 - 2024</div>
+        <div class="timeline-content">
+          <h4>Atención de Alto Nivel | Sushi Bar Tottori (Michelin)</h4>
+          <p>Gestión de procesos críticos y atención al detalle extremo. Capacidad de resolución de conflictos en tiempo real bajo máxima presión.</p>
+        </div>
       </div>
     </section>
-
-    <hr>
-
-    <section class="contacto">
-      <h3>📬 ¿Hablamos?</h3>
-      <div class="contacto-links">
-        <a href="mailto:torpocomartinezluis@gmail.com">📧 torpocomartinezluis@gmail.com</a>
-        <a href="https://github.com/T2todoroki" target="_blank">🔗 github.com/T2todoroki</a>
-        <span>📍 Madrid, España</span>
-      </div>
-    </section>
-
   </main>
+
 </body>
 </html>
